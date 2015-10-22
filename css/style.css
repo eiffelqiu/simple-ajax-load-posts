@@ -1,0 +1,20 @@
+#salp-load-posts {
+	display: block;
+	margin: 30px 0;
+	text-align: center;
+}
+
+#salp-load-posts a {
+	padding: 10px 40px;
+	border: 1px solid #c6c6c6;
+	border-radius: 6px;
+	display: inline-block;
+	font-size: 16px;
+	color: #4b4b4b;
+}
+
+#salp-load-posts a:hover {
+	background: #e0e0e0;
+	color: #333;
+	text-decoration: none;
+}
