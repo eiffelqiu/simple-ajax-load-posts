@@ -29,7 +29,7 @@ function salp_init()
         wp_enqueue_script(
             'salp-script',
             plugin_dir_url(__FILE__) . 'js/load-posts.js',
-            false,
+            array('jquery'),
             '1.0',
             false
         );
